@@ -1,0 +1,20 @@
+import type { Customer } from '../types/models';
+import { daysFromToday } from '../utils/format';
+
+export const demoCustomers: Customer[] = [
+{ id: 'c-01', name: 'Wanjiru Kamau', phone: '0700 000 101', email: 'wanjiru.kamau@example.com', preferences: 'Terrace seating, prefers red wine. Nut allergy.', previousVisits: 14, tier: 'VIP', createdAt: daysFromToday(-320), isDemo: true },
+{ id: 'c-02', name: 'Brian Otieno', phone: '0700 000 102', email: 'brian.otieno@example.com', preferences: 'Sports screenings, Tusker on tap.', previousVisits: 9, tier: 'Regular', createdAt: daysFromToday(-210), isDemo: true },
+{ id: 'c-03', name: 'Amina Hassan', phone: '0700 000 103', email: 'amina.hassan@example.com', preferences: 'Halal menu, mocktails, quiet corner.', previousVisits: 6, tier: 'Regular', createdAt: daysFromToday(-150), isDemo: true },
+{ id: 'c-04', name: 'Kevin Mwangi', phone: '0700 000 104', email: 'kevin.mwangi@example.com', preferences: 'VIP booth for corporate clients, Johnnie Walker Black.', previousVisits: 22, tier: 'VIP', createdAt: daysFromToday(-400), isDemo: true },
+{ id: 'c-05', name: 'Faith Njeri', phone: '0700 000 105', email: 'faith.njeri@example.com', preferences: 'Birthday celebrations, likes the jazz nights.', previousVisits: 4, tier: 'Regular', createdAt: daysFromToday(-90), isDemo: true },
+{ id: 'c-06', name: 'David Kiprop', phone: '0700 000 106', email: 'david.kiprop@example.com', preferences: 'Grilled tilapia, window table.', previousVisits: 7, tier: 'Regular', createdAt: daysFromToday(-180), isDemo: true },
+{ id: 'c-07', name: 'Grace Achieng', phone: '0700 000 107', email: 'grace.achieng@example.com', preferences: 'Vegetarian. Prefers early dinner seatings.', previousVisits: 3, tier: 'Regular', createdAt: daysFromToday(-60), isDemo: true },
+{ id: 'c-08', name: 'Samuel Mutua', phone: '0700 000 108', email: 'samuel.mutua@example.com', preferences: 'Shisha (double apple), bar counter.', previousVisits: 11, tier: 'Regular', createdAt: daysFromToday(-240), isDemo: true },
+{ id: 'c-09', name: 'Lucy Wambui', phone: '0700 000 109', email: 'lucy.wambui@example.com', preferences: 'Champagne on arrival for anniversaries.', previousVisits: 8, tier: 'VIP', createdAt: daysFromToday(-275), isDemo: true },
+{ id: 'c-10', name: 'Ahmed Abdi', phone: '0700 000 110', email: 'ahmed.abdi@example.com', preferences: 'Large family groups, Swahili dishes.', previousVisits: 5, tier: 'Regular', createdAt: daysFromToday(-120), isDemo: true },
+{ id: 'c-11', name: 'Mercy Chebet', phone: '0700 000 111', email: 'mercy.chebet@example.com', preferences: 'DJ nights, VIP section.', previousVisits: 10, tier: 'VIP', createdAt: daysFromToday(-200), isDemo: true },
+{ id: 'c-12', name: 'Daniel Ochieng', phone: '0700 000 112', email: 'daniel.ochieng@example.com', preferences: 'Business lunches, quiet table.', previousVisits: 2, tier: 'Regular', createdAt: daysFromToday(-30), isDemo: true },
+{ id: 'c-13', name: 'Esther Nyambura', phone: '0700 000 113', email: 'esther.nyambura@example.com', preferences: 'Mezze board, white wine.', previousVisits: 6, tier: 'Regular', createdAt: daysFromToday(-140), isDemo: true },
+{ id: 'c-14', name: 'Peter Kariuki', phone: '0700 000 114', email: 'peter.kariuki@example.com', preferences: 'Nyama choma platter for groups.', previousVisits: 12, tier: 'Regular', createdAt: daysFromToday(-300), isDemo: true },
+{ id: 'c-15', name: 'Naomi Atieno', phone: '0700 000 115', email: 'naomi.atieno@example.com', preferences: 'Comedy nights, cocktails.', previousVisits: 1, tier: 'Regular', createdAt: daysFromToday(-12), isDemo: true },
+{ id: 'c-16', name: 'Ian Mugo', phone: '0700 000 116', email: 'ian.mugo@example.com', preferences: 'Private events, Moët for celebrations.', previousVisits: 3, tier: 'Regular', createdAt: daysFromToday(-45), isDemo: true }];
